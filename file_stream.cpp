@@ -9,6 +9,8 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+
+#include "basics.hpp"
 using namespace std;
 
 int main()

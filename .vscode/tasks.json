@@ -1,0 +1,60 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build string_stream.cpp",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "string_stream.cpp",
+                "-o",
+                "build/a.out"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build file_stream.cpp",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "file_stream.cpp",
+                "-o",
+                "build/a.out"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build user_input.cpp",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "user_input.cpp",
+                "-o",
+                "build/a.out"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "execute the binary",
+            "type": "shell",
+            "command": "./build/a.out",
+            "args": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
