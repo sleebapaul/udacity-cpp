@@ -6,12 +6,8 @@
 //  Copyright © 2018 Udacity. All rights reserved.
 //
 
-#include <iostream>
-#include <fstream>
-#include <string>
-
 #include "basics.hpp"
-using namespace std;
+
 
 int main()
 {
