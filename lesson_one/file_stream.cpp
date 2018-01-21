@@ -6,7 +6,7 @@
 //  Copyright © 2018 Udacity. All rights reserved.
 //
 
-#include "basics.hpp"
+#include "astar.hpp"
 
 
 int main()
