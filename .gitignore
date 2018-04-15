@@ -62,4 +62,4 @@ Pods
 !.vscode/launch.json
 !.vscode/extensions.json
 
-bin
+bin/*
